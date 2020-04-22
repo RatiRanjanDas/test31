@@ -57,7 +57,7 @@ spec:
         image: quay.io/fluentd_elasticsearch/fluentd:v2.5.2
         env:
         - name:  FLUENT_ELASTICSEARCH_HOST
-          value: elastic1.maas
+          value: 127.0.0.1
         - name:  FLUENT_ELASTICSEARCH_PORT
           value: "9200"
         - name: FLUENT_ELASTICSEARCH_SCHEME
